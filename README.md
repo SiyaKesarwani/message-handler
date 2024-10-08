@@ -61,6 +61,3 @@ Once you have Python set up, you can install the `python-dotenv` package. This p
 ```bash
 pip install python-dotenv
 ```
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
