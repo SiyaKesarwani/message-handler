@@ -20,6 +20,29 @@ This project implements an autonomous agent in Python that interacts with the Et
    ```
 
 2. **Install Dependencies**:
+
+    To install Python 3, follow the instructions for your operating system:
+
+- **Windows**:
+  1. Download the installer from the [official Python website](https://www.python.org/downloads/).
+  2. Run the installer and ensure that the option "Add Python to PATH" is selected.
+  
+- **macOS**:
+  1. You can use Homebrew to install Python. Open a terminal and run:
+     ```bash
+     brew install python3
+     ```
+
+- **Linux**:
+  1. You can install Python using your package manager. For example, on Ubuntu:
+     ```bash
+     sudo apt update
+     sudo apt install python3 python3-pip
+     ```
+
+
+
+    To install required packages for project:
    ```bash
    pip install web3
    pip install python-dotenv
@@ -35,7 +58,7 @@ This project implements an autonomous agent in Python that interacts with the Et
    Execute the script to start the agent instances. They will begin communicating with each other and interacting with the Ethereum blockchain.
 
    ```bash
-   python src/index.py
+   python3 src/index.py
    ```
 
 2. **Monitor Output**:
@@ -49,7 +72,7 @@ This project implements an autonomous agent in Python that interacts with the Et
 To run all the tests, use:
 
 ```bash
-python -m unittest
+python3 -m unittest
 ```
 
 ## Acknowledgments
